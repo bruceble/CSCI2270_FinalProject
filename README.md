@@ -9,7 +9,7 @@ CSCI 2270: Data Structures - Project SpecificationsMiniGit (A mini version contr
   g++ -std=c++17 miniGit.cpp driver.cpp -o minigit -lstdc++fs                     <br/>
 ## Executible Flow (in terminal)
 $  ./MiniGit                                                                      <br/>
-                                                                                  <br/>
+                                                                                  <br/> <br/>
 Starting miniGit...                                                               <br/>
 Press Enter to Continue                                                           <br/>
                                                                                   <br/>
