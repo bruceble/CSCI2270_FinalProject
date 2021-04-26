@@ -1,3 +1,4 @@
 .minigit/
 miniGit.cpp
-*.txt 
+*.txt
+ignore/
