@@ -146,11 +146,6 @@ miniGit repo;
 
 ## Method: repo.checkout()
 
-<ol>
-<li>First item</li>
-<li>Second item</li>
-<li>Third item</li>
-<li>Fourth item</li>
-</ol> 
+At any point, the user should be able to checkout any previous version of the repository.  Ifthe user chooses to checkout a version, they should be prompted to enter a commit number.For a valid commit number, the files in the current directory should be overwritten by thethe corresponding files from the.minigitdirectory.  (It is a good idea to issue a warning tothe user that they will loose their local changes if they checkout a different version beforemaking a commit with their current local changes.)This step will require a search through the DLL for a node with matching commit number.Also  note  that  you  must  disallow  add,  remove,  and  commit  operations  when  the  currentversion is different from the most recent commit (the last DLL node).
 
 <br/>
