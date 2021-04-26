@@ -3,35 +3,38 @@ CSCI 2270: Data Structures - Project SpecificationsMiniGit (A mini version contr
 
 # Executible File
 ## Compile With g++
-  g++ -std=c++17 miniGit.cpp driver.cpp -o minigit                                <br/>
-                                                                                  <br/>
-  \# add linker statement if above doesn't work: -lstdc++fs                       <br/>
-  g++ -std=c++17 miniGit.cpp driver.cpp -o minigit -lstdc++fs                     <br/>
+  g++ -std=c++17 miniGit.cpp driver.cpp -o minigit                                    <br/>
+                                                                                      <br/>
+  \# add linker statement if above doesn't work: -lstdc++fs                           <br/>
+  g++ -std=c++17 miniGit.cpp driver.cpp -o minigit -lstdc++fs                         <br/>
 ## Executible Flow (in terminal)
-$  ./MiniGit                                                                      <br/>
-                                                                                  <br/> <br/>
-Starting miniGit...                                                               <br/>
-Press Enter to Continue                                                           <br/>
-                                                                                  <br/>
-Init cancelled: '.minigit' has been previously created. Continue anyways? (y/n)   <br/>
-                                                                                  <br/>
-Select an option.                                                                 <br/>
-(1)   Add a file                                                                  <br/>
-(2)   Remove a file                                                               <br/>
-(3)   Commit changes                                                              <br/>
-(4)   Checkout                                                                    <br/>
-Enter any other value to quit.                                                    <br/>
+$  ./MiniGit                                                                          <br/>
+                                                                                      <br/>
+Starting miniGit...                                                                   <br/>
+Press Enter to Continue                                                               <br/>
+                                                                                      <br/>
+Init cancelled: '.minigit' has been previously created. Continue anyways? (y/n)       <br/>
+                                                                                      <br/>
+Select an option.                                                                     <br/>
+(1)   Add a file                                                                      <br/>
+(2)   Remove a file                                                                   <br/>
+(3)   Commit changes                                                                  <br/>
+(4)   Checkout                                                                        <br/>
+Enter any other value to quit.                                                        <br/>
   
 ### Option (1)
-You selected the add option...                                                    <br/>
-Please enter an existing filename or type 'quit'                                  <br/>
-$ USER INPUT                                                                      <br/>
-The file: empty.txt was added to the latest version of .minigit directory         <br/>
+You selected the add option...                                                        <br/>
+Please enter an existing filename or type 'quit'                                      <br/>
+                                                                                      <br/>
+$ USER INPUT                                                                          <br/>
+                                                                                      <br/>
+The file: empty.txt was added to the latest version of .minigit directory             <br/>
 
 
 ### Option (2)
 You selected the remove option...                                                     <br/> 
 Please enter an existing filename or type '?' to see current files in repo or 'quit'  <br/>
+                                                                                      <br/>
 $ USER INPUTS FILENAME OR SELECTS OPTIONS                                             <br/>
                                                                                       <br/>
 Removed filename: empty.txt from current version of the repository.                   <br/>
@@ -59,6 +62,7 @@ Initial commit complete.                                                        
 Commit #0                                                                             <br/>
  >>> empty.txt0                                                                       <br/>
 Select a commit version                                                               <br/>
+                                                                                      <br/>
 $ USER INPUTS VERSION NUMBER FROM PRINTED VALUES ABOVE                                <br/>
                                                                                       <br/>
 The selected version: 1 is already checked out: version 1                             <br/>
