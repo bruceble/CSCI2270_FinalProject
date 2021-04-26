@@ -88,13 +88,13 @@ miniGit repo;
     Prompt user to enter a file name. 
   </li>
   <li>
-    Check whether the file with the given name exists in the current directory.  If not, keepprompting the user to enter a valid file name.
+    Check whether the file with the given name exists in the current directory.  If not, keep prompting the user to enter a valid file name.
   </li>
   <li>
     The SLL is checked to see whether the file has already been added.  A file by the samename cannot be added twice.
   </li>
   <li>
-    A new SLL node gets added containing the name of the input file, name of the repos-itory file, as well as a pointer to the next node.  The repository file name should bethe combination of the original file name and the version number.  For example, if userfilehelp.txtis added, the new file to be saved in the.minigitrepository should benamedhelp00.txt, where00is the version number.  (The initial file version shouldbe00.)  The above naming system is just a suggestion.  You may implement your ownnaming convention.  For instance, you may choose to call the new file in the.minigitrepositry ashelp.txtkorkhelp.txtwherekis the version number.
+    A new SLL node gets added containing the name of the input file, name of the repos-itory file, as well as a pointer to the next node.  The repository file name should be the combination of the original file name and the version number.  For example, if userfile help.txt is added, the new file to be saved in the .minigit repository should be named help.txt0, where 0 is the version number.  (The initial file version should be 0.)
   </li>
 </ol> 
 
