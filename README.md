@@ -1,5 +1,6 @@
 # CSCI2270_FinalProject
-CSCI 2270: Data Structures - Project SpecificationsMiniGit (A mini version control system) 
+CSCI 2270: Data Structures - Project SpecificationsMiniGit (A mini version control system) <br/>
+NOTE: miniGit.cpp is in .gitignore until project is submitted and grading is complete. 
 
 # Executible File
 ## Compile With g++
@@ -80,17 +81,54 @@ This implementations includes 4 core methodologies: add(), remove(), commit() an
 miniGit repo;
 
 ## Method: repo.add()
+1.  .2.  3.  4.  
+
+<ol>
+  <li> 
+    Prompt user to enter a file name. 
+  </li>
+  <li>
+    Check whether the file with the given name exists in the current directory.  If not, keepprompting the user to enter a valid file name.
+  </li>
+  <li>
+    The SLL is checked to see whether the file has already been added.  A file by the samename cannot be added twice.
+  </li>
+  <li>
+    A new SLL node gets added containing the name of the input file, name of the repos-itory file, as well as a pointer to the next node.  The repository file name should bethe combination of the original file name and the version number.  For example, if userfilehelp.txtis added, the new file to be saved in the.minigitrepository should benamedhelp00.txt, where00is the version number.  (The initial file version shouldbe00.)  The above naming system is just a suggestion.  You may implement your ownnaming convention.  For instance, you may choose to call the new file in the.minigitrepositry ashelp.txtkorkhelp.txtwherekis the version number.
+  </li>
+</ol> 
 
 <br/>
 
 ## Method: repo.remove()
 
+<ol>
+<li>First item</li>
+<li>Second item</li>
+<li>Third item</li>
+<li>Fourth item</li>
+</ol> 
+
 <br/>
 
 ## Method: repo.commit()
 
+<ol>
+<li>First item</li>
+<li>Second item</li>
+<li>Third item</li>
+<li>Fourth item</li>
+</ol> 
+
 <br/>
 
 ## Method: repo.checkout()
+
+<ol>
+<li>First item</li>
+<li>Second item</li>
+<li>Third item</li>
+<li>Fourth item</li>
+</ol> 
 
 <br/>
