@@ -53,14 +53,14 @@ OR                                                                              
                                                                                       <br/>
 Copy of 'empty.txt' to '.minigit/empty.txt0' complete.                                <br/>
 Initial commit complete.                                                              <br/>
- >>> filename_added_to_repo                                                           <br/>
+ \>>> filename_added_to_repo                                                           <br/>
 
 ### Option (4)
 (Uncommitted) Version: 1                                                              <br/>
- >>> empty.txt                                                                        <br/>
+ \>>> empty.txt                                                                        <br/>
 -----------------                                                                     <br/>
 Commit #0                                                                             <br/>
- >>> empty.txt0                                                                       <br/>
+ \>>> empty.txt0                                                                       <br/>
 Select a commit version                                                               <br/>
                                                                                       <br/>
 $ USER INPUTS VERSION NUMBER FROM PRINTED VALUES ABOVE                                <br/>
@@ -70,7 +70,7 @@ The selected version: 1 is already checked out: version 1                       
 OR                                                                                    <br/>
                                                                                       <br/>
 Commit #0                                                                             <br/>
- >>> notEmpty.txt0                                                                    <br/> 
+ \>>> notEmpty.txt0                                                                    <br/> 
 Copy of '.minigit/notEmpty.txt0' to 'notEmpty.txt' complete.                          <br/>
 
 # Code Implementations
