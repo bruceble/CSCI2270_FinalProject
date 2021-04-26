@@ -81,7 +81,6 @@ This implementations includes 4 core methodologies: add(), remove(), commit() an
 miniGit repo;
 
 ## Method: repo.add()
-1.  .2.  3.  4.  
 
 <ol>
   <li> 
@@ -103,10 +102,15 @@ miniGit repo;
 ## Method: repo.remove()
 
 <ol>
-<li>First item</li>
-<li>Second item</li>
-<li>Third item</li>
-<li>Fourth item</li>
+  <li>
+    Prompt user to enter a file name.
+  </li>
+  <li>
+    Check the SLL for whether the file exists in the current version of the repository.
+  </li>
+  <li>
+    If found, delete the SLL node.
+  </li>
 </ol> 
 
 <br/>
@@ -114,10 +118,27 @@ miniGit repo;
 ## Method: repo.commit()
 
 <ol>
-<li>First item</li>
-<li>Second item</li>
-<li>Third item</li>
-<li>Fourth item</li>
+  <li>
+    The current SLL should be traversed in its entirety, and for every node.
+    <ol>
+      <li>
+        Check whether the correspondingfileVersionfile exists in.minigitdirectory.If thefileVersionfiledoes notexist,  copy the file from the current directoryinto the.minigitdirectory.  The newly copied file should get the name from thenode’sfileVersionmember.   (Note:  this  will  only  be  the  case  when  a  file  isadded to the repository for the first time.)
+      </li>
+      <li>
+        If thefileVersionfiledoesexist in.minigit, check whether the current direc-tory file has been changed (i.e.  has it been changed by the user?)  with respect tothefileVersionfile.  (To do the comparison, you can read in the file from thecurrent directory into one string and read in the file from the.minigitdirectoryinto another string, and check for equality.)  Based on the comparison result, dothe following: 
+        <ul>
+          <li>
+            File is unchanged:  do nothing.
+          </li>
+          <li>
+            File  is  changed:  copy  the  file  from  the  current  directory  to  the.minigitdirectory,  and  give  it  a  name  with  the  incremented  version  number.   Also,update the SLL node memberfileVersionto the incremented name.
+          </li>
+        </ul> 
+      </li>
+  </li>
+  <li>
+    Once all the files have been scanned,  the final step of the commit will create a newDoubly Linked List node of the repository.  An exact (deep) copy of the SLL from theprevious node shall be copied into the new DLL node.  The commit number of the newDLL node will be the previous nodes commit number incremented by one
+  </li>
 </ol> 
 
 <br/>
