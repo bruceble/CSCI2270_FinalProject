@@ -6,6 +6,7 @@ This implementations includes 4 core methodologies: add(), remove(), commit() an
 # add()
 
 <br/>
+
 # remove()
 
 <br/>
@@ -13,5 +14,7 @@ This implementations includes 4 core methodologies: add(), remove(), commit() an
 # commit()
 
 <br/>
+
 # checkout()
+
 <br/>
