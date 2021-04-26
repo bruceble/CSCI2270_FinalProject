@@ -135,7 +135,7 @@ miniGit repo;
           </li>
         </ul> 
       </li>
-  </li>
+    </li>
   <li>
     Once all the files have been scanned,  the final step of the commit will create a newDoubly Linked List node of the repository.  An exact (deep) copy of the SLL from theprevious node shall be copied into the new DLL node.  The commit number of the newDLL node will be the previous nodes commit number incremented by one
   </li>
