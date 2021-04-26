@@ -3,18 +3,22 @@ CSCI 2270: Data Structures - Project SpecificationsMiniGit (A mini version contr
 
 This implementations includes 4 core methodologies: add(), remove(), commit() and checkout(). 
 
-# add()
+# create a minigit object:
+(in driver, main): <br/>
+miniGit repo;
+
+# repo.add()
 
 <br/>
 
-# remove()
+# repo.remove()
 
 <br/>
 
-# commit()
+# repo.commit()
 
 <br/>
 
-# checkout()
+# repo.checkout()
 
 <br/>
