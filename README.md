@@ -7,18 +7,18 @@ This implementations includes 4 core methodologies: add(), remove(), commit() an
 // (in driver, main) <br/>
 miniGit repo;
 
-# repo.add()
+## repo.add()
 
 <br/>
 
-# repo.remove()
+## repo.remove()
 
 <br/>
 
-# repo.commit()
+## repo.commit()
 
 <br/>
 
-# repo.checkout()
+## repo.checkout()
 
 <br/>
